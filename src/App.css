@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: orangered;
+    font-size: 20px;
+    height: 100px;
+}
+
+.navbar-brand{
+    margin-left: 120px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-item{
+    margin-left: 150px;
+    font-weight: 600;
+}
+
+.nav-item:hover{
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: white;
+    transition: ease 1s;
+}
